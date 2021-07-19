@@ -14,4 +14,4 @@ word= random.choice(word_list)
 spec=random.choice(special_char)
 num=str(random.randint(10,99))
 password=word+spec+num
-print("Your readable password is {} ".format(password))
+print("Your readable password is given as {} ".format(password))
